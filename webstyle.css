@@ -781,11 +781,13 @@ sub {
     padding: 0;
     display: flex;
     justify-content: flex-start;
+    border-radius: 10px;
     
 }
 
 .topnav li {
     margin: 0;
+    border-radius: 10px;
 }
 
 .topnav a {
