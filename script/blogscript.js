@@ -1,0 +1,16 @@
+const librewolflike = document.getElementById("")
+const librewolfhide = document.getElementById("librewolfhiseshowbutton")
+const librewolftext = document.getElementById("librewolftext")
+//librewolf hide button
+librewolfhide.addEventListener("click", function() {
+    if (librewolftext.style.display === "block") {
+        librewolftext.style.display = "none";
+        librewolfhide.textContent = "Show Post"
+        
+    } else {
+        librewolftext.style.display = "block";
+        librewolfhide.textContent = "Hide Post"
+
+    }
+    
+})
