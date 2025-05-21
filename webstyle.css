@@ -797,9 +797,11 @@ sub {
     padding: 14px 20px;
     text-decoration: none;
     transition: background 0.2s;
+    border-radius: 10px;
 }
 
 .topnav a:hover {
     background-color: #444;
+    border-radius: 10px;
 }
 
