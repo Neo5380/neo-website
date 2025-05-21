@@ -759,5 +759,43 @@ sub {
 #likebutton:active {
   background-color: rgb(120, 170, 130); /* darker green on press */
   transform: scale(0.95); /* slight shrink effect */
+#dislikebutton:active {
+  background-color: rgb(203, 52, 82); /* darker red on press */
+  transform: scale(0.95); /* slight shrink effect */
+}
+}
+/* Sticky horizontal top navigation bar */
+.topnav {
+    position: sticky;
+    top: 0;
+    background-color: #222;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.topnav li {
+    margin: 0;
+}
+
+.topnav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.topnav a:hover {
+    background-color: #444;
 }
 
