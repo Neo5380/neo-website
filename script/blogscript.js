@@ -1,5 +1,5 @@
-const librewolflike = document.getElementById("")
-const librewolfhide = document.getElementById("librewolfhiseshowbutton")
+const librewolflike = document.getElementById("librewolflikebutton");
+const librewolfhide = document.getElementById("librewolfhideshowbutton")
 const librewolftext = document.getElementById("librewolftext")
 //librewolf hide button
 librewolfhide.addEventListener("click", function() {
